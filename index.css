@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  background-image:url("back.jpeg");
+  background-repeat: no-repeat;
+  background-position: 0px 10px;
+  background-size: 100%;
+}
+.topnav{  
+  background-color: rgb(207, 188, 15); 
+  overflow: hidden;
+}
+.topnav a{  
+  float: left;
+  color: black;
+  text-align: center;
+  font-size: 18px;  
+  padding: 12px 35px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.topnav a:hover{
+  color: rgb(255, 238, 0);
+  background-color: rgb(241, 37, 10);
+}
+.topnav .active{
+  background-color: rgb(2, 82, 22);
+  color: whitesmoke;
+}
+.topnav .ab{
+  float: right;
+  padding-right: 6%;
+  border-radius: 8px;
+}
+.selvi{
+  text-align: center;
+  align-items: center;
+  margin: 30px 0px;
+  font-size: 40px;
+  color: rgb(124, 238, 30);
+}
+.selviweb{
+  color: rgb(245, 45, 19);
+}
+.footer{
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-weight: 28px;
+  font-size: 28px;
+  color: rgb(238, 255, 6);
+}
+
